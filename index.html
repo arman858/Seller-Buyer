@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link a href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <section id="page1" class="page-One">
+
+        <div class="heading">
+            <div class="sell-buy">
+                <a href="#page2"><span class="sell">Seller</span></a>
+                <a href="#page1"><span class="buy">Buyer</span></a>
+            </div>
+            <div id="input-place">
+                <p>
+                    Add new Product
+                </p>
+                <input type="text" class="input-values" id="product-name" placeholder="Product name" />
+                <input type="number" class="input-values" id="product-price" placeholder="Product price" />
+                <select id="selection" class="page-One">
+                    <Option disabled selected>Product type</Option>
+                    <Option>Toys</Option>
+                    <Option>Flowers</Option>
+                    <Option>Books</Option>
+                </select>
+                <button class="button-for-inputs" id="button-add" class="page-One">Add</button>
+            </div>
+            <div id="dem-place" class="page-One">
+
+            </div>
+    </section>
+    </div>
+    <section id="page2" class="page-two">
+        <div class="heading">
+            <div class="sell-buy">
+                <a href="#page2"><span class="sell">Seller</span></a>
+                <a href="#page1"><span class="buy">Buyer</span></a>
+            </div>
+
+            <div id="left" class="page-two">
+                <div class="products page-two">
+                    <span onclick="filter()">Show All</span>
+                    <span onclick="filter('Toys')">Toys</span>
+                    <span onclick="filter('Flowers')">Flowers</span>
+                    <span onclick="filter('Books')">Books</span>
+                </div>
+
+                <div class="item-place page-two" id="buyer-section">
+                </div>
+            </div>
+
+            <div id="right-column">
+
+
+
+
+
+            </div>
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

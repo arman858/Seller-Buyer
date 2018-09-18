@@ -1,0 +1,371 @@
+
+
+/* Main styles  */
+
+
+
+body {
+    width: 1000px;
+    background-color: #cccccc;
+    margin: 0 auto;
+    padding: 0px;
+    outline: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Page 1 Styles */
+
+
+
+
+#page1 {
+    height: 700px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.heading {
+    width: 100%;
+    height: 70px;
+    background-color: #72bb53;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sell-buy {
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 26px;
+    color: white;
+}
+
+.sell-buy:hover {
+    cursor: pointer;
+}
+
+#page1 .sell {
+    color: black;
+}
+.buy {
+    margin-left: 20px;
+}
+#page1 .buy {
+    color: white;
+}
+#page1 .buy:hover {
+    color:black;
+}
+#page2 .buy {
+    color: black;
+}
+#page2 .sell {
+    color: white;
+}
+#page2 .sell:hover {
+    color: black;
+}
+.buy:target {
+    color: black;
+}
+
+.sell-buy>span {
+    margin: 10px;
+}
+
+#page1:target {
+    display: none;
+}
+
+#page2:target {
+    display: none;
+}
+
+#input-place {
+    padding-left: 40px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-One #input-place>p {
+    font-size: 24px;
+}
+
+.page-One .input-values {
+    display: block;
+    width: 250px;
+    height: 32px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 0 12px;
+    outline: none;
+}
+
+.page-One .button-for-inputs {
+    width: 70px;
+    height: 32px;
+    background: #5cb85c;
+    border: 1px solid #4cae4c;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+
+.page-One #selection {
+    width: 276px;
+    height: 32px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 0 12px;
+    outline: none;
+}
+
+.page-One .output {
+    position: relative;
+    width: 350px;
+    margin-bottom: 2px;
+    padding: 10px 5px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.page-One .outputs-title {
+    margin-right: 25px;
+}
+
+.page-One .outputs-type {
+    color: #cccccc;
+}
+
+.page-One img {
+    position: absolute;
+    vertical-align: middle;
+    right: 10px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.page-One #dem-place {
+    padding-top: 100px;
+    padding-left: 70px;
+}
+
+
+
+
+/* Page 2 Styeles */
+
+
+
+
+
+
+#page2 {
+    height: 700px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.page-two .user {
+    padding-top: 23px;
+}
+
+.page-two #left {
+    float: left;
+    width: 600px;
+    margin-left: 30px;
+    padding: 10px;
+    margin-top: 20px;
+    overflow: scroll;
+    max-height: 400px;
+}
+
+.page-two .products span {
+    font-size: 26px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+
+.page-two .products {
+    margin-bottom: 20px;
+}
+
+.page-two .items {
+    height: 120px;
+    background-color: #fefac0;
+    position: relative;
+    margin-top: 20px;
+}
+
+.page-two .items:hover {
+    background-color: #fef67f;
+    border: dashed red 1px;
+}
+
+.page-two .items>img {
+    width: 81px;
+}
+
+.page-two #product-name {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+}
+
+.page-two #product-price {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+}
+
+.page-two #product-type {
+    position: absolute;
+    top: 80px;
+    left: 120px;
+}
+
+.page-two img {
+    margin: 20px 0 20px 20px;
+}
+
+.page-two #buy-this {
+    height: 32px;
+    width: 70px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.page-two #right {
+    float: right;
+    display: inline-block;
+    padding: 20px;
+    width: 260px;
+    margin: 40px 0 20px 0;
+    min-height: 100px;
+    background: #dfedd6;
+    margin-right: 20px;
+    overflow: scroll;
+    max-height: 400px;
+}
+
+.page-two .shopping-cart-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.page-two .total-price {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    color: #e61610;
+}
+.page-two .total-price {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    color: #e61610;
+  }
+  .page-two .checkout-button {
+    width: 100px;
+    height: 32px;
+    margin: 10px 60px 0 60px;
+    background: #5cb85c;
+    border: 1px solid #4cae4c;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+  }
+  
+.page-two .checkout-button {
+    width: 100px;
+    height: 32px;
+    margin: 10px 60px 0 60px;
+    background: #5cb85c;
+    border: 1px solid #4cae4c;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+
+.page-two .purchased-products {
+    position: relative;
+    padding-bottom: 7px;
+    border-bottom: 2px dotted #000000;
+}
+
+.page-two .item-name {
+    margin: 30px 0 5px 0;
+    font-size: 14px;
+}
+
+.item-price {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.page-two .item-count {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+}
+.page-two .products > span:hover {
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.page-two .items-total-price {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+    font-style: italic;
+    color: #e61610;
+}
+
+.page-two .delete-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #ffffff;
+    width: 30px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+}
+
+.page-two .sub-button {
+    position: absolute;
+    left: 70px;
+    bottom: 30px;
+    width: 50px;
+    height: 20px;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+}
+
+.page-two .add-button {
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+    width: 50px;
+    height: 20px;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+}
